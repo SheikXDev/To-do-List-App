@@ -1,0 +1,20 @@
+.text-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-box input {
+    width: 100%;
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0 10px;
+}
+
+.text-box input::placeholder {
+    font-family: MarmelatBook;
+    font-style: italic;
+    opacity: 80%;
+    font-size: 20px;
+}

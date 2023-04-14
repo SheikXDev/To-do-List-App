@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: MainBold;
+  src: url(./Assets/fonts/marmelat-cufonfonts/Marmelat\ Bold.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: MarmelatBlack;
+  src: url(./Assets/fonts/marmelat-cufonfonts/Marmelat\ Black.otf );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: MarmelatBook;
+  src: url(./Assets/fonts/marmelat-cufonfonts/Marmelat\ Book.otf );
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
 }
